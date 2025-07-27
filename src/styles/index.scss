@@ -43,7 +43,7 @@ body {
   }
 }
 
-.item {
+.nav__link {
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
@@ -76,8 +76,8 @@ body {
   margin: 0;
 }
 
-.item:hover {
-  color: var(--link-color);
+.nav__link:hover {
+  color: #00acdc;
   animation-duration: 300ms;
 }
 
