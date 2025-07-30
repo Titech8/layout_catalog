@@ -40,6 +40,10 @@ body {
       margin-left: 20px;
       margin-bottom: 0;
     }
+
+    .nav__item:first-child {
+      margin-left: 0;
+    }
   }
 }
 
@@ -79,9 +83,9 @@ body {
 
 .main {
   padding: 50px 40px;
-  margin: 0 auto;
   display: grid;
-  width: fit-content;
+  justify-content: center;
+  min-width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 46px 48px;
 
