@@ -85,7 +85,8 @@ body {
   padding: 50px 40px;
   display: grid;
   justify-content: center;
-  width: fit-content;
+  width: 100%;
+  margin-inline: auto;
   grid-template-columns: repeat(auto-fill(200px, 1fr));
   grid-gap: 46px 48px;
 
